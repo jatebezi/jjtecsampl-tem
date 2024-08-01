@@ -1,0 +1,31 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Metadata": {
+        "AWS::CloudFormation::Designer": {
+            "63930206-bff7-4940-a445-5a42860a0667": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 365,
+                    "y": 239
+                },
+                "z": 0
+            }
+        }
+    },
+    "Resources": {
+        "S3B4I4C8": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "BucketName": "melvin3242"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "63930206-bff7-4940-a445-5a42860a0667"
+                }
+            }
+        }
+    }
+}
